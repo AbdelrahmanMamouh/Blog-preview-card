@@ -1,0 +1,153 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+body {
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background: rgb(244, 208, 78);
+}
+
+.main-container {
+    width: 384px;
+    height: 522px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 50px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(17, 17, 17);
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px 0px rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+
+.main-image {
+    border-radius: 10px;
+}
+
+.yellow-box {
+    width: 58px;
+    height: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8;
+    padding: 4px 12px 4px 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 12px 0px;
+    margin-top: 24px;
+    border-radius: 4px;
+    background: rgb(244, 207, 77);
+}
+
+.learn {
+    color: rgb(17, 17, 17);
+    font-family: figtree, serif;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left; 
+
+}
+
+.date {
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 12px 0px;
+    color: rgb(17, 17, 17);
+    font-family: Figtree, serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.header {
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 12px 0px;
+    color: rgb(17, 17, 17);
+    font-family: Figtree;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+p {
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 12px 0px;
+    color: rgb(107, 107, 107);
+    font-family: Figtree;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.author {
+    width: 129px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12;
+    padding: 0px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.author-image {
+    
+    width: 32px;
+    height: 32px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.author-name {
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 12px;
+    color: rgb(17, 17, 17);
+    font-family: Figtree, serif;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
